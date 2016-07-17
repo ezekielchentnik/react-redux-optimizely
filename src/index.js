@@ -47,7 +47,7 @@ export function activate(EXPERIMENT_ID) {
     return isActive(EXPERIMENT_ID);
 }
 
-const connectExperiment = (experimentId, suppressActivateOnRender = false) => (Wrapped) => {
+export default (experimentId, suppressActivateOnRender = false) => (Wrapped) => {
 
     class Wrapper extends Component {
 
@@ -80,5 +80,4 @@ const goalMiddleware = reporter(({ type, payload }) => {
 
 }, ({ meta = {} }) => meta.experiments);
 
-export default connectExperiment;
 export { goalMiddleware };
