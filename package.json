@@ -1,6 +1,6 @@
 {
   "name": "react-redux-optimizely",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Higher Order Component(s) and helpers for running Optimizely experiments in a React/Redux Application.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,8 @@
   "homepage": "https://github.com/ezekielchentnik/react-redux-optimizely",
   "keywords": [
     "redux",
+    "react optimizely",
+    "redux optimizely",
     "react",
     "middleware",
     "redux-middleware",
