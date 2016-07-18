@@ -1,6 +1,6 @@
 {
   "name": "react-redux-optimizely",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Higher Order Component(s) and helpers for running Optimizely experiments in a React/Redux Application.",
   "main": "lib/index.js",
   "scripts": {
