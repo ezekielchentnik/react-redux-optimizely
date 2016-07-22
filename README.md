@@ -13,7 +13,17 @@ npm install --save react-redux-optimizely
 
 ### Connecting an experiment
 ```js
-// todo
+import React from 'react';
+import connect from 'react-redux-optimizely';
+
+let Header = ({ variant, isActive }) => {
+    if (variant) {
+        return (<h1>Variant</h1>);
+    }
+    return (<h1>Base</h1>);
+};
+
+export default connect('MY_EXP_NAME')(Header);
 ```
 
 ### Configuring Optimizely
